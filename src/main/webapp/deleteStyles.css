@@ -1,0 +1,80 @@
+@charset "ISO-8859-1";
+/* deleteStyles.css */
+
+body {
+    background-image: url('delete-background.png'); 
+    background-size: cover;
+    background-position: center centre;
+    background-repeat: no-repeat;
+    padding: 20px;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.form-holder {
+    background-color: rgba(255, 255, 255, 0.5); 
+    backdrop-filter: blur(2px); 
+    border-radius: 10px; 
+    padding: 20px;
+    max-width: 500px;
+    width: 100%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 0 auto;
+    text-align: center;
+}
+
+.form-content {
+    text-align: center;
+}
+
+.form-items {
+    text-align: center; /* Center the text */
+    margin: 0 auto; /* Center horizontally */
+}
+
+
+
+.form-content h3 {
+    color: #000;
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    text-align: center; /* Center align the text */
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="submit"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    transition: box-shadow 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+    box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+    transform: translateY(-0.25em);
+}
+
+form > * {
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 18px;
+}

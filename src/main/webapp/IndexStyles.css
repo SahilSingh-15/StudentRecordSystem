@@ -1,0 +1,199 @@
+@charset "ISO-8859-1";
+@charset "ISO-8859-1";
+body {
+    background-color: #c8f4eb;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+header {
+    background-color: #97f8e4;
+    padding: 1rem;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2rem;
+    color: #fff;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+section {
+    width: 48%;
+    padding: 2rem;
+    box-sizing: border-box;
+    background-color: #bbecd6;
+    margin-bottom: 2rem;
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+label {
+    width: 48%;
+    margin-bottom: 1rem;
+}
+
+input[type="text"],
+input[type="number"] {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+
+
+footer {
+    background-color: #61ccaf;
+    height: 50px;
+    padding: 1rem;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+footer p {
+    color: #fff;
+}
+
+
+.container-fluid {
+	background-color: #bbecd6;
+    margin-top: 0px;
+}
+
+
+
+
+	.nav_left {
+          background-color:#61ccaf;
+          border-top-left-radius: 48px;
+          border-bottom-left-radius: 48px;
+      }
+      
+      .nav-tabs .nav-link.active {
+          background-color: transparent;
+          border-color: transparent;
+          border-top: 4px solid #fff;
+          color: #fff;
+      }
+      
+      .nav-tabs .nav-link {
+          border: none;
+          border-top-left-radius: 0;
+          border-top-right-radius: 0;
+          margin: 0 30px 0 40px;
+          padding: 2px;
+      }
+      
+      .nav-tabs {
+          border-bottom: none;
+      }
+      
+      .nav-link {
+          padding: 1rem 0.5rem;
+          color: #fff;
+      }
+      
+      .nav-link:focus,
+      .nav-link:hover {
+          color: #fff;
+      }
+      
+      .search_input {
+          width:100%;
+          border-radius: 10px;
+          border: none;
+          line-height: initial;
+          padding-top: 4px;
+          padding-bottom: 4px;
+          color: #f19159;
+      }
+      
+      .search_input:focus-visible {
+          outline: none;
+      }
+      
+      input.search_input::placeholder {
+          color: #cfd2ec;
+          vertical-align: middle;
+      }
+      
+      .search_img {
+          top: 7px;
+          right: 8px;
+      }
+      
+      .navbar-toggler {
+          border: 3px solid #f19159;
+      }
+      
+      .navbar-toggler-icon {
+          background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(35, 76, 203, 0.8)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+      }
+      
+      .navbar-toggler:focus {
+          box-shadow: none;
+      }
+     .options{
+        display: flex;
+        justify-content: center;
+     }
+     .options-text{
+        margin-left: 20px;
+     }
+     #calculate-average-grade-text {
+        justify-content: center;
+
+
+     }
+     #calculate-average-grade-text h2 {
+        font-size: 1.5rem;
+     }
+     .options-text h2 a {
+    text-decoration: none; /* Remove underline */
+    color: inherit; /* Use the color inherited from the parent element */
+    
+  }
+  
+  
+   .calculate-button {
+    background: none;
+    border: none;
+    padding: 0;
+    font: inherit;
+    color: inherit;
+    cursor: pointer;
+    text-align: left;
+    margin: 0; /* Add this line to reset margin */
+    width: auto; /* Add this line to make button width auto */
+}
+
+.calculate-button:hover {
+    text-decoration: underline;
+}
+
+/* Add this block to remove default button focus outline */
+.calculate-button:focus {
+    outline: none;
+}
+  
+  
+
+
+
+
+
+
+  

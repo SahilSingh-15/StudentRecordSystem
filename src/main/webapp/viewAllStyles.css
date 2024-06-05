@@ -1,0 +1,45 @@
+/* viewAllStyles.css */
+
+/* Body styles */
+body {
+    background-image: url('view-all-background.png'); /* Path to your background image */
+    background-size: cover; /* Ensure the background image covers the entire body */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat; /* Prevent the background image from repeating */
+    padding: 20px; /* Add some padding to the body */
+}
+
+/* Center the table container */
+.table-container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.5); /* Semi-transparent white background */
+    backdrop-filter: blur(2px); /* Apply a blur effect */
+    border-radius: 10px; /* Rounded corners for the table container */
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle shadow */
+}
+
+/* Style for the table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #f2f2f2;
+    color: #333;
+}
+
+/* Add some margin below the table */
+.table-container + h2 {
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
